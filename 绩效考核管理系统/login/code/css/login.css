@@ -1,0 +1,148 @@
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: "Microsoft YaHei";
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: : "Microsoft YaHei";
+    margin: 0;
+    // background-color: #4A374A;   
+    background: url(../img/login-bg.png) no-repeat;
+    background-size: cover;
+}
+
+#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -350px;
+    width: 700px;
+    height: 300px;
+    border: 5px solid #fff;
+    color: #fff;
+    // background-color: #307dc3;
+    // background-color: rgba(48, 125, 195, .6);
+    background: url(../img/input-bg.png);
+    background-size: cover;
+}
+
+.left {
+    width: 400px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    right: 22px;
+    line-height: 32px;
+}
+
+.vertical {
+    position: absolute;
+    width: 0;
+    height: 250px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    top: 25px;
+    left: 50%;
+}
+
+.right {
+    float: right;
+    margin-right: 45px;
+    position: relative;
+    bottom: 50px;
+}
+
+.right input {
+    width: 200px;
+    height: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-left: 25px;
+    font-size: 13px;
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: transparent;
+    border-radius: 7px;
+}
+
+.username {
+    background: url(../img/user.png) 0 center no-repeat;
+    background-size: 20px;
+}
+
+.password {
+    background: url(../img/password.png) 0 center no-repeat;
+    background-size: 20px;
+}
+
+.right a {
+    color: #fff;
+    float: right;
+    text-decoration: none;
+    font-size: 12px;
+    margin-bottom: 10px;
+    transition: color 1s;
+}
+
+.right a:hover {
+    color: greenyellow;
+    transition: color 1s;
+}
+
+.butt {
+    width: 250px;
+    min-height: 20px;
+    display: block;
+    background-color: #98cf90;
+    border: 1px solid #98cf90;
+    color: #fff;
+    padding: 9px 14px;
+    font-size: 15px;
+    line-height: normal;
+    border-radius: 7px;
+    margin: 0;
+    letter-spacing: 2px;
+    transition: background-color 1s;
+}
+
+.butt:hover {
+    background-color: #b2ecb2;
+    color: #fff;
+    transition: background-color 1s;
+}
+
+.butt:active {
+    background-color: #6ab46a;
+    color: #fff;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+input::-webkit-input-placeholder {
+    /* WebKit browsers*/
+    color: #e8e6e6;
+    font-size: 14px;
+}
+
+input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18*/
+    color: #fff;
+    font-size: 14px;
+}
+
+input::-moz-placeholder {
+    /* Mozilla Firefox 19+*/
+    color: #fff;
+    font-size: 14px;
+}
+
+input:-ms-input-placeholder {
+    /* Internet Explorer 10+*/
+    color: #fff;
+    font-size: 14px;
+}
+
